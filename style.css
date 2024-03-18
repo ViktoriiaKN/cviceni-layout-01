@@ -26,6 +26,37 @@ body {
   background-color: #8e44ad;
 }
 
+@media screen and (min-width: 640px) {
+  .kontejner {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .prvni{
+width: 50%;
+  }
+
+  .druhy {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .kontejner {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .prvni{
+width: 33.33%;
+  }
+
+  .druhy {
+    width: 33.33%;
+  }
+
+  .treti {
+    width: 33.33%;
+  }
+}
 /* ---------------------------------------------------- */
 
 /*
